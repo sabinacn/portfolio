@@ -1,0 +1,39 @@
+body {
+        background: #e2e2e2; 
+        color: #4242e8;
+        font-family: 'PT Serif', sans-serif;
+        margin: 40px;
+      }
+      h1 {
+        font-weight: 400;
+        margin: 0px;
+      }
+      header {
+        display: flex;
+        line-height: 2em;
+        vertical-align: baseline;
+      }
+      p {
+        padding-top: 6px;
+        margin: 0px;
+        font-family: 'B612', sans-serif;
+
+      }
+      article {
+        padding: 24px 0;
+        width: 100%;
+      }
+      @media (min-device-width: 667px) {
+        article {
+          width: 50%;
+        }
+      }
+
+      article img {
+        width: 90%;
+      }
+      .container {width:50%;}
+      .flex-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+      }
